@@ -6,7 +6,7 @@ module.exports = {
     DB_DIALECT: 'mongo',
     DB_HOST: 'localhost',
     DB_PORT: '27017',
-    DB_NAME: 'gustave',
+    DB_NAME: 'albadil',
     DB_USER: 'root',
     DB_PASSWORD: 'root',
 

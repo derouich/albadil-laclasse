@@ -5,7 +5,7 @@ const Colors = {
   SECONDARY: '#4c4beb',
   SECONDARY_DARK: '#4c4beb',
   DEFAULT: '#FFFFFF',
-  PEARL_RIVER: '#F4F6F8',
+  PEARL_RIVER: '#E0E0E0',
   RED: colors.red[900],
   IMPERIAL: colors.red[600],
   PERSIAN: colors.red[400],

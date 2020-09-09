@@ -131,8 +131,8 @@ button.btn-small:hover{background:#fff; color:#2b3b82;}
 header.main-header-wrapper{background:#fff; position:fixed; top:0px; right:0px; box-shadow:10px 0px 10px 1px #e0e0e0; padding:6px; z-index:333; width:calc(100% - 251px); transition: 0.2s all;}
 header.main-header-wrapper.active{width:100%;}
 	.top-left-header{float:left;}
-	.top-left-header a{display:inline-block; text-decoration:none; color:#000b99; font-size:14px;}
-	.top-left-header a i{display:inline-block; color:#000b99; font-size:16px; line-height:34px; padding:0px 8px;}
+	.top-left-header a{display:inline-block; text-decoration:none; color:#4c4beb; font-size:14px;}
+	.top-left-header a i{display:inline-block; color:#4c4beb; font-size:16px; line-height:34px; padding:0px 8px;}
 	.top-left-header ul{}
 	.top-left-header ul li{display:inline-block; position:relative;}
 	.top-left-header ul li a{}
@@ -162,7 +162,7 @@ header.main-header-wrapper.active{width:100%;}
 
 /* left fixed menu */
 
-.active_nav a{background: #000b99;color: #fff !important;}
+.active_nav a{background: #4c4beb;color: #fff !important;}
 
 
 .fixed-left-menu-wrapper{position:fixed; top:0px; left:0px; bottom:0px; background:#fff; box-shadow:0px 0px 10px 1px #e0e0e0; overflow-y:visible; width:250px; z-index:222; transition: 0.2s all;}
@@ -223,9 +223,9 @@ header.main-header-wrapper.active{width:100%;}
 		.media-wrapper ul li:nth-child(even){background:#fafcf7;}
 		.media-wrapper ul li span{display:block; position:absolute; top:50%; right:-10px; transform:translateY(-50%); font-size:30px; opacity:0; visibility:hidden;}
 		.media-wrapper ul li:hover span{opacity:1; visibility:visible; color:#2b3b82;}
-		.media-wrapper ul li.active a{background:#000b99; color:#fff;}
-		.media-wrapper ul li.active span{opacity:1; visibility:visible; color:#000b99;}
-		.media-wrapper ul li a{display:block; text-decoration:none; font-size:13px; color:#000b99; font-weight:700; padding:12px 10px;}
+		.media-wrapper ul li.active a{background:#4c4beb; color:#fff;}
+		.media-wrapper ul li.active span{opacity:1; visibility:visible; color:#4c4beb;}
+		.media-wrapper ul li a{display:block; text-decoration:none; font-size:13px; color:#4c4beb; font-weight:700; padding:12px 10px;}
 		.media-wrapper ul li a i{display:inline-block; margin-right:5px; width:15px;}
 		/* .media-wrapper ul li a:hover{background:#e68524; color:#fff;} */
 
@@ -246,15 +246,15 @@ header.main-header-wrapper.active{width:100%;}
 
 	.height-wrapper{position:relative;}
 	.height-wrapper .save-btn-wrapper{position:absolute; bottom:1px; left:0px; right:0px; text-align:center; padding:12px 15px; background:#fff; margin:0px 1px; border-radius:0px 0px 5px 5px; background:#fbfff7; border-top:1px solid #e7e7e7;}
-	.height-wrapper .save-btn-wrapper button{display:inline-block; background:#000b99; width:90px; margin:0px 2px; color:#fff; border:none; outline:none; font-size:14px; border-radius:3px; padding:6px 2px; transition: 0.2s all;}
-	.height-wrapper .save-btn-wrapper button:hover{background:#000b99;}
+	.height-wrapper .save-btn-wrapper button{display:inline-block; background:#4c4beb; width:90px; margin:0px 2px; color:#fff; border:none; outline:none; font-size:14px; border-radius:3px; padding:6px 2px; transition: 0.2s all;}
+	.height-wrapper .save-btn-wrapper button:hover{background:#4c4beb;}
 
 
 .social-media{}
 .social-media ul{padding:30px 0px 0px;}
 .social-media ul li{display:inline-block; padding:0px 15px;}
 .social-media ul li a{color:#2b3b82; text-decoration:none; display:inline-block; font-size:16px;}
-.social-media ul li a:hover{color:#000b99;}
+.social-media ul li a:hover{color:#4c4beb;}
 
 /* admin profile page closed */
 

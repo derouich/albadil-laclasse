@@ -2,8 +2,8 @@ import { colors } from '@material-ui/core';
 
 const Colors = {
   PRIMARY: '#393939',
-  SECONDARY: '#000b99',
-  SECONDARY_DARK: '#000b99',
+  SECONDARY: '#4c4beb',
+  SECONDARY_DARK: '#4c4beb',
   DEFAULT: '#FFFFFF',
   PEARL_RIVER: '#F4F6F8',
   RED: colors.red[900],

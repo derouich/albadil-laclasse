@@ -26,7 +26,7 @@ export function addLabelForSelectorClasse(originalArray){
 
 export function buildListForCalendar(originalArray){
   originalArray.map(obj =>{
-              obj['color']=obj.isActive ? "#000b99" : "#000b99" ;
+              obj['color']=obj.isActive ? "#4c4beb" : "#4c4beb" ;
               obj['desc']=obj.description;
               obj['end']=obj.endDateTime;
               obj['id']=obj.id;

@@ -1,0 +1,48 @@
+@import './prismjs';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: #f4f6f8;
+}
+
+a {
+  text-decoration: none;
+}
+
+:not(pre) > code {
+  font-family: Inconsolata, Monaco, Consolas, 'Courier New', Courier, monospace;
+  background-color: #eeeeee;
+  padding: 2px 4px;
+  direction: ltr;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  line-height: 1.5;
+  font-size: 14px;
+}
+
+
+
+.grid-container {
+  margin-top : 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "Date-start Date-start DateEnd DateEnd" ". . . ." ". . . .";
+}
+
+.Date-start { grid-area: Date-start; }
+
+.DateEnd { grid-area: DateEnd; }
+
+.react-datepicker__portal { left: 0; right: 0; top: 0; bottom: 0; width: 100% !important; height: auto !important; background: rgba(128, 128, 128, 0.7) !important; }

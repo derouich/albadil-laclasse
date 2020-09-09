@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<title>Edit Profile</title>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<%- include('./layout/css') -%>
+
+
+</head>
+
+<body>
+
+
+
+	<%- include('./layout/header') -%>
+
+
+	<%- include('./layout/sidebar') -%>
+
+	<!-- left-fixed-menu closed -->
+
+	<!-- main-site-area-wrapper -->
+
+	<div class="main-site-area-wrapper" id="sliding2">
+
+		<div class="admin-dashboard-wrapper clearfix">
+			<div class="conatiner-fluid clearfix">
+
+				<div class="dashboard-heading clearfix">
+					<h2>My Profile</h2>
+				</div>
+
+
+				<div class="col-md-3">
+					<div class="dashboard-profile">
+
+						<div class="show-profile">
+							<!-- <form id="form1" runat="server"> -->
+							<!-- -->
+							<% if(user.profileImage == null || user.profileImage == ''){ %>
+							<img src="/assets/images/placeholder.png"
+								alt="profile">
+							<% } else{ %>
+							<img src="<%= user.profileImage %>" alt="profile">
+							<!-- <img src="https://media.gettyimages.com/photos/wazir-khan-mosque-lahore-punjab-pakistan-picture-id637623678?s=612x612" alt="profile"> -->
+							<% } %>
+							<!-- <img id="image_upload_preview" src="<%= user.profileImage %>" alt="profile"> -->
+							<!-- <label style="margin-top: 25px;"> -->
+							<!-- <input type="file" id="inputFile"> -->
+							<!-- <span>Profile Picture</span>
+									</label> -->
+							<!-- </form> -->
+						</div>
+
+						<div class="media-wrapper">
+							<ul style="margin-top: 40px;text-align: center;">
+								<li class="active"><a href="javascript:void(0)"><i class="fas fa-file-signature"></i>
+										Profile Picture
+										<span class="fas fa-caret-right"></span></a></li>
+								<!-- <li><a href="#"><i class="fas fa-cog"></i> Account Detail <span class="fas fa-caret-right"></span></a></li>
+									<li><a href="#"><i class="fas fa-cog"></i> Account Detail <span class="fas fa-caret-right"></span></a></li>
+									<li><a href="#"><i class="fas fa-briefcase"></i> Jobe Detail <span class="fas fa-caret-right"></span></a></li> -->
+							</ul>
+						</div>
+
+					</div>
+				</div>
+
+				<div class="col-md-9">
+					<div class="height-wrapper">
+						<div class="dashboard-content clearfix">
+
+							<div class="form-heading">
+								<h2>Personal Detail</h2>
+							</div>
+
+							<div class="form-wrapper clearfix">
+								<div class="col-md-6">
+									<label>
+										<span>Name</span>
+										<input type="text" value="<%= user.fullName %>" name="fullname">
+									</label>
+								</div>
+								<div class="col-md-6">
+									<label>
+										<span>Email</span>
+										<input type="text" value="<%= user.email %>" name="email">
+									</label>
+								</div>
+								<div class="col-md-6">
+									<label>
+										<span>Phone</span>
+										<input type="text" value="<%= user.phone %>" name="phone">
+									</label>
+								</div>
+								<div class="col-md-6">
+									<label>
+										<span>City</span>
+										<input type="text" value="<%= user.cityName %>" name="cityName">
+									</label>
+								</div>
+								<div class="col-md-6">
+									<label>
+										<span>Etablissement</span>
+										<input type="text" value="<%= user.etablissement %>" name="etablissement">
+									</label>
+								</div>
+								<div class="col-md-6">
+									<label>
+										<span>Last Login</span>
+										<input type="text" value="<%= LastUserLogin %>" readonly="readonly">
+									</label>
+								</div>
+								<div class="col-md-6">
+									<label>
+										<span>Forgot Password Token</span>
+										<input type="text" value="<%= user.forgotPasswordToken %>" name="forgotPasswordToken">
+									</label>
+								</div>
+								<div class="col-md-6">
+									<label>
+										<span>Password</span>
+										<input  value="<%= user.password %>" id="password">
+										<input type="hidden" id="id" value="<%= user._id %>">
+									</label>
+								</div>
+
+								<div class="col-md-12 radio-btns">
+									<label>
+										<span style="width: 100px;">Is Teacher</span>
+									</label>
+									<% if(user.isModerator){ %>
+									<label>
+										<input type="radio" name="moderator" value="true" checked>
+										<span>True</span>
+									</label>
+									<label>
+										<input type="radio" name="moderator" value="false">
+										<span>False</span>
+									</label>
+									<% } else{ %>
+									<label>
+										<input type="radio" name="moderator" value="true">
+										<span>True</span>
+									</label>
+									<label>
+										<input type="radio" name="moderator" value="false" checked>
+										<span>False</span>
+									</label>
+									<% } %>
+								</div>
+								<div class="col-md-12 radio-btns">
+									<label>
+										<span style="width: 100px;">Status</span>
+									</label>
+									<% if(user.status){ %>
+									<label>
+										<input type="radio" name="status" value="true" checked>
+										<span>True</span>
+									</label>
+									<label>
+										<input type="radio" name="status" value="false">
+										<span>False</span>
+									</label>
+									<% } else{ %>
+									<label>
+										<input type="radio" name="status" value="true">
+										<span>True</span>
+									</label>
+									<label>
+										<input type="radio" name="status" value="false" checked>
+										<span>False</span>
+									</label>
+									<% } %>
+								</div>
+
+								<div class="col-md-12 radio-btns">
+									<label>
+										<span style="width: 100px;">Is Admin</span>
+									</label>
+									<% if(user.isAdmin){ %>
+										<label>
+											<input type="radio" name="admin" value="true" checked>
+											<span>True</span>
+										</label>
+										<label>
+											<input type="radio" name="admin" value="false">
+											<span>False</span>
+										</label>
+									<% } else{ %>
+										<label>
+											<input type="radio" name="admin" value="true">
+											<span>True</span>
+										</label>
+										<label>
+											<input type="radio" name="admin" value="false" checked>
+											<span>False</span>
+										</label>
+									<% } %>
+								</div>
+
+								<div class="col-md-2">
+									<label>
+										<span>Total Courses: </span>
+										<span style="font-size: 20px;"> <b> <%= user.rooms.length %>  </b> </span>
+									</label>
+								</div>
+								<div class="col-md-2">
+									<label>
+										<span>Total Classes: </span>
+										<span style="font-size: 20px;"> <b> <%= user.classes.length %>  </b> </span>
+									</label>
+								</div>
+
+
+								<!-- <div class="col-md-12">
+									<label>
+										<span>Classes:</span>
+										<ul>
+											<% if(user.rooms.length == 1){ %>
+											<% for(var i=0; i < user.classes.length; i++) { %>
+												  <li><%= i+1 %>- &nbsp;&nbsp; Name: &nbsp;<%= user.classes[i].classeName %> ,&nbsp;&nbsp;&nbsp;&nbsp; Active:&nbsp; <%= user.classes[i].isActive %>   </li>
+											 <% } %>
+											 <% } else{ %>
+												<li> No record found </li>
+											<% } %>
+										</ul>
+									</label>
+								</div>
+								<div class="col-md-12">
+									<label>
+										<span>Rooms:</span>
+										<ul>
+											<% if(user.rooms.length == 1){ %>
+											<% for(var i=0; i < user.rooms.length; i++) { %>
+												  <li><%= i+1 %>- &nbsp;&nbsp; Name: &nbsp;<%= user.rooms[i].roomName %> ,&nbsp;&nbsp;&nbsp;&nbsp;
+													Active:&nbsp; <%= user.rooms[i].isActive %> ,&nbsp;&nbsp;&nbsp;&nbsp;
+													School:&nbsp; <%= user.rooms[i].schoolName %>   </li>
+											 <% } %>
+											 <% } else{ %>
+												<li> No record found </li>
+											<% } %>
+										</ul>
+									</label>
+								</div> -->
+
+
+							</div>
+
+						</div>
+						<div class="save-btn-wrapper">
+							<button type="button" id="save">Save</button>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+
+
+	</div>
+
+
+
+
+	<%- include('./layout/javascript') -%>
+	<script>
+		$(document).ready(function () {
+			$('#password').attr('type', 'password');
+			var e = false;
+			$('#password').on('click',function(){
+				if(e){
+					$('#password').val('');
+				}
+				e = true;
+				$('#password').attr('type', 'text');
+			});
+			const hashPassword = '<%= user.password %>';
+			$('#save').click(function () {
+				blockUi();
+				const password = $('#password').val();
+				const id = $('#id').val();
+				const status = $("input[name='status']:checked").val();
+				const moderator = $("input[name='moderator']:checked").val();
+				const admin = $("input[name='admin']:checked").val();
+				const fullname = $("input[name='fullname']").val();
+				const email = $("input[name='email']").val();
+				const phone = $("input[name='phone']").val();
+				const cityName = $("input[name='cityName']").val();
+				const etablissement = $("input[name='etablissement']").val();
+				const forgotPasswordToken = $("input[name='forgotPasswordToken']").val();
+				var data = { status, moderator, admin, id, fullname, email, phone, cityName, etablissement, forgotPasswordToken };
+				if(hashPassword == password){
+					console.log('matched');
+				}else{
+					if(password.length > 20){
+						$.unblockUI();
+						return toastr.error('Too long password');
+					}
+					data.password = password;
+					console.log('not matched');
+				}
+				$.ajax({
+					type: 'post',
+					url: '/update-user-profile',
+					dataType: 'json',
+					data: data,
+					success: function (data) {
+						$.unblockUI();
+						if(data.status == 1){
+
+							toastr.success(data.message);
+							setInterval(() => {
+								window.location.reload();
+							}, 2000);
+						}
+					}
+				});
+			});
+		});
+	</script>
+
+
+</body>
+
+</html>

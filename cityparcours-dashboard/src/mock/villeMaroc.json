@@ -1,0 +1,1974 @@
+{
+  "allcity": [
+    {
+      "value": "1",
+      "label": "Aïn Harrouda",
+      "region": "6"
+    },
+    {
+      "value": "2",
+      "label": "Ben Yakhlef",
+      "region": "6"
+    },
+    {
+      "value": "3",
+      "label": "Bouskoura",
+      "region": "6"
+    },
+    {
+      "value": "4",
+      "label": "Casablanca",
+      "region": "6"
+    },
+    {
+      "value": "5",
+      "label": "Médiouna",
+      "region": "6"
+    },
+    {
+      "value": "6",
+      "label": "Mohammadia",
+      "region": "6"
+    },
+    {
+      "value": "7",
+      "label": "Tit Mellil",
+      "region": "6"
+    },
+    {
+      "value": "8",
+      "label": "Ben Yakhlef",
+      "region": "6"
+    },
+    {
+      "value": "9",
+      "label": "Bejaâd",
+      "region": "5"
+    },
+    {
+      "value": "10",
+      "label": "Ben Ahmed",
+      "region": "6"
+    },
+    {
+      "value": "11",
+      "label": "Benslimane",
+      "region": "6"
+    },
+    {
+      "value": "12",
+      "label": "Berrechvalue",
+      "region": "6"
+    },
+    {
+      "value": "13",
+      "label": "Boujniba",
+      "region": "5"
+    },
+    {
+      "value": "14",
+      "label": "Boulanouare",
+      "region": "5"
+    },
+    {
+      "value": "15",
+      "label": "Bouznika",
+      "region": "6"
+    },
+    {
+      "value": "16",
+      "label": "Deroua",
+      "region": "6"
+    },
+    {
+      "value": "17",
+      "label": "El Borouj",
+      "region": "6"
+    },
+    {
+      "value": "18",
+      "label": "El Gara",
+      "region": "6"
+    },
+    {
+      "value": "19",
+      "label": "Guisser",
+      "region": "6"
+    },
+    {
+      "value": "20",
+      "label": "Hattane",
+      "region": "5"
+    },
+    {
+      "value": "21",
+      "label": "Khouribga",
+      "region": "5"
+    },
+    {
+      "value": "22",
+      "label": "Loulad",
+      "region": "6"
+    },
+    {
+      "value": "23",
+      "label": "Oued Zem",
+      "region": "5"
+    },
+    {
+      "value": "24",
+      "label": "Oulad Abbou",
+      "region": "6"
+    },
+    {
+      "value": "25",
+      "label": "Oulad H'Riz Sahel",
+      "region": "6"
+    },
+    {
+      "value": "26",
+      "label": "Oulad M'rah",
+      "region": "6"
+    },
+    {
+      "value": "27",
+      "label": "Oulad Saïd",
+      "region": "6"
+    },
+    {
+      "value": "28",
+      "label": "Oulad Svaluei Ben Daoud",
+      "region": "6"
+    },
+    {
+      "value": "29",
+      "label": "Ras El Aïn",
+      "region": "6"
+    },
+    {
+      "value": "30",
+      "label": "Settat",
+      "region": "6"
+    },
+    {
+      "value": "31",
+      "label": "Svaluei Rahhal Chataï",
+      "region": "6"
+    },
+    {
+      "value": "32",
+      "label": "Soualem",
+      "region": "6"
+    },
+    {
+      "value": "33",
+      "label": "Azemmour",
+      "region": "6"
+    },
+    {
+      "value": "34",
+      "label": "Bir Jdvalue",
+      "region": "6"
+    },
+    {
+      "value": "35",
+      "label": "Bouguedra",
+      "region": "7"
+    },
+    {
+      "value": "36",
+      "label": "Echemmaia",
+      "region": "7"
+    },
+    {
+      "value": "37",
+      "label": "El Jadvaluea",
+      "region": "6"
+    },
+    {
+      "value": "38",
+      "label": "Hrara",
+      "region": "7"
+    },
+    {
+      "value": "39",
+      "label": "Ighoud",
+      "region": "7"
+    },
+    {
+      "value": "40",
+      "label": "Jamâat Shaim",
+      "region": "7"
+    },
+    {
+      "value": "41",
+      "label": "Jorf Lasfar",
+      "region": "6"
+    },
+    {
+      "value": "42",
+      "label": "Khemis Zemamra",
+      "region": "6"
+    },
+    {
+      "value": "43",
+      "label": "Laaounate",
+      "region": "6"
+    },
+    {
+      "value": "44",
+      "label": "Moulay Abdallah",
+      "region": "6"
+    },
+    {
+      "value": "45",
+      "label": "Oualvalueia",
+      "region": "6"
+    },
+    {
+      "value": "46",
+      "label": "Oulad Amrane",
+      "region": "6"
+    },
+    {
+      "value": "47",
+      "label": "Oulad Frej",
+      "region": "6"
+    },
+    {
+      "value": "48",
+      "label": "Oulad Ghadbane",
+      "region": "6"
+    },
+    {
+      "value": "49",
+      "label": "Safi",
+      "region": "7"
+    },
+    {
+      "value": "50",
+      "label": "Sebt El Maârif",
+      "region": "6"
+    },
+    {
+      "value": "51",
+      "label": "Sebt Gzoula",
+      "region": "7"
+    },
+    {
+      "value": "52",
+      "label": "Svaluei Ahmed",
+      "region": "7"
+    },
+    {
+      "value": "53",
+      "label": "Svaluei Ali Ban Hamdouche",
+      "region": "6"
+    },
+    {
+      "value": "54",
+      "label": "Svaluei Bennour",
+      "region": "6"
+    },
+    {
+      "value": "55",
+      "label": "Svaluei Bouzvalue",
+      "region": "6"
+    },
+    {
+      "value": "56",
+      "label": "Svaluei Smaïl",
+      "region": "6"
+    },
+    {
+      "value": "57",
+      "label": "Youssoufia",
+      "region": "7"
+    },
+    {
+      "value": "58",
+      "label": "Fès",
+      "region": "3"
+    },
+    {
+      "value": "59",
+      "label": "Aïn Cheggag",
+      "region": "3"
+    },
+    {
+      "value": "60",
+      "label": "Bhalil",
+      "region": "3"
+    },
+    {
+      "value": "61",
+      "label": "Boulemane",
+      "region": "3"
+    },
+    {
+      "value": "62",
+      "label": "El Menzel",
+      "region": "3"
+    },
+    {
+      "value": "63",
+      "label": "Guigou",
+      "region": "3"
+    },
+    {
+      "value": "64",
+      "label": "Imouzzer Kandar",
+      "region": "3"
+    },
+    {
+      "value": "65",
+      "label": "Imouzzer Marmoucha",
+      "region": "3"
+    },
+    {
+      "value": "66",
+      "label": "Missour",
+      "region": "3"
+    },
+    {
+      "value": "67",
+      "label": "Moulay Yaâcoub",
+      "region": "3"
+    },
+    {
+      "value": "68",
+      "label": "Ouled Tayeb",
+      "region": "3"
+    },
+    {
+      "value": "69",
+      "label": "Outat El Haj",
+      "region": "3"
+    },
+    {
+      "value": "70",
+      "label": "Ribate El Kheir",
+      "region": "3"
+    },
+    {
+      "value": "71",
+      "label": "Séfrou",
+      "region": "3"
+    },
+    {
+      "value": "72",
+      "label": "Skhinate",
+      "region": "3"
+    },
+    {
+      "value": "73",
+      "label": "Tafajight",
+      "region": "3"
+    },
+    {
+      "value": "74",
+      "label": "Arbaoua",
+      "region": "4"
+    },
+    {
+      "value": "75",
+      "label": "Aïn Dorij",
+      "region": "1"
+    },
+    {
+      "value": "76",
+      "label": "Dar Gueddari",
+      "region": "4"
+    },
+    {
+      "value": "77",
+      "label": "Had Kourt",
+      "region": "4"
+    },
+    {
+      "value": "78",
+      "label": "Jorf El Melha",
+      "region": "4"
+    },
+    {
+      "value": "79",
+      "label": "Kénitra",
+      "region": "4"
+    },
+    {
+      "value": "80",
+      "label": "Khenichet",
+      "region": "4"
+    },
+    {
+      "value": "81",
+      "label": "Lalla Mimouna",
+      "region": "4"
+    },
+    {
+      "value": "82",
+      "label": "Mechra Bel Ksiri",
+      "region": "4"
+    },
+    {
+      "value": "83",
+      "label": "Mehdia",
+      "region": "4"
+    },
+    {
+      "value": "84",
+      "label": "Moulay Bousselham",
+      "region": "4"
+    },
+    {
+      "value": "85",
+      "label": "Svaluei Allal Tazi",
+      "region": "4"
+    },
+    {
+      "value": "86",
+      "label": "Svaluei Kacem",
+      "region": "4"
+    },
+    {
+      "value": "87",
+      "label": "Svaluei Slimane",
+      "region": "4"
+    },
+    {
+      "value": "88",
+      "label": "Svaluei Taibi",
+      "region": "4"
+    },
+    {
+      "value": "89",
+      "label": "Svaluei Yahya El Gharb",
+      "region": "4"
+    },
+    {
+      "value": "90",
+      "label": "Souk El Arbaa",
+      "region": "4"
+    },
+    {
+      "value": "91",
+      "label": "Akka",
+      "region": "9"
+    },
+    {
+      "value": "92",
+      "label": "Assa",
+      "region": "10"
+    },
+    {
+      "value": "93",
+      "label": "Bouizakarne",
+      "region": "10"
+    },
+    {
+      "value": "94",
+      "label": "El Ouatia",
+      "region": "10"
+    },
+    {
+      "value": "95",
+      "label": "Es-Semara",
+      "region": "11"
+    },
+    {
+      "value": "96",
+      "label": "Fam El Hisn",
+      "region": "9"
+    },
+    {
+      "value": "97",
+      "label": "Foum Zguvalue",
+      "region": "9"
+    },
+    {
+      "value": "98",
+      "label": "Guelmim",
+      "region": "10"
+    },
+    {
+      "value": "99",
+      "label": "Taghjijt",
+      "region": "10"
+    },
+    {
+      "value": "100",
+      "label": "Tan-Tan",
+      "region": "10"
+    },
+    {
+      "value": "101",
+      "label": "Tata",
+      "region": "9"
+    },
+    {
+      "value": "102",
+      "label": "Zag",
+      "region": "10"
+    },
+    {
+      "value": "103",
+      "label": "Marrakech",
+      "region": "7"
+    },
+    {
+      "value": "104",
+      "label": "Ait Daoud",
+      "region": "7"
+    },
+    {
+      "value": "115",
+      "label": "Amizmiz",
+      "region": "7"
+    },
+    {
+      "value": "116",
+      "label": "Assahrij",
+      "region": "7"
+    },
+    {
+      "value": "117",
+      "label": "Aït Ourir",
+      "region": "7"
+    },
+    {
+      "value": "118",
+      "label": "Ben Guerir",
+      "region": "7"
+    },
+    {
+      "value": "119",
+      "label": "Chichaoua",
+      "region": "7"
+    },
+    {
+      "value": "120",
+      "label": "El Hanchane",
+      "region": "7"
+    },
+    {
+      "value": "121",
+      "label": "El Kelaâ des Sraghna",
+      "region": "7"
+    },
+    {
+      "value": "122",
+      "label": "Essaouira",
+      "region": "7"
+    },
+    {
+      "value": "123",
+      "label": "Fraïta",
+      "region": "7"
+    },
+    {
+      "value": "124",
+      "label": "Ghmate",
+      "region": "7"
+    },
+    {
+      "value": "125",
+      "label": "Ighounane",
+      "region": "8"
+    },
+    {
+      "value": "126",
+      "label": "Imintanoute",
+      "region": "7"
+    },
+    {
+      "value": "127",
+      "label": "Kattara",
+      "region": "7"
+    },
+    {
+      "value": "128",
+      "label": "Lalla Takerkoust",
+      "region": "7"
+    },
+    {
+      "value": "129",
+      "label": "Loudaya",
+      "region": "7"
+    },
+    {
+      "value": "130",
+      "label": "Lâattaouia",
+      "region": "7"
+    },
+    {
+      "value": "131",
+      "label": "Moulay Brahim",
+      "region": "7"
+    },
+    {
+      "value": "132",
+      "label": "Mzouda",
+      "region": "7"
+    },
+    {
+      "value": "133",
+      "label": "Ounagha",
+      "region": "7"
+    },
+    {
+      "value": "134",
+      "label": "Svalue L'Mokhtar",
+      "region": "7"
+    },
+    {
+      "value": "135",
+      "label": "Svalue Zouin",
+      "region": "7"
+    },
+    {
+      "value": "136",
+      "label": "Svaluei Abdallah Ghiat",
+      "region": "7"
+    },
+    {
+      "value": "137",
+      "label": "Svaluei Bou Othmane",
+      "region": "7"
+    },
+    {
+      "value": "138",
+      "label": "Svaluei Rahhal",
+      "region": "7"
+    },
+    {
+      "value": "139",
+      "label": "Skhour Rehamna",
+      "region": "7"
+    },
+    {
+      "value": "140",
+      "label": "Smimou",
+      "region": "7"
+    },
+    {
+      "value": "141",
+      "label": "Tafetachte",
+      "region": "7"
+    },
+    {
+      "value": "142",
+      "label": "Tahannaout",
+      "region": "7"
+    },
+    {
+      "value": "143",
+      "label": "Talmest",
+      "region": "7"
+    },
+    {
+      "value": "144",
+      "label": "Tamallalt",
+      "region": "7"
+    },
+    {
+      "value": "145",
+      "label": "Tamanar",
+      "region": "7"
+    },
+    {
+      "value": "146",
+      "label": "Tamansourt",
+      "region": "7"
+    },
+    {
+      "value": "147",
+      "label": "Tameslouht",
+      "region": "7"
+    },
+    {
+      "value": "148",
+      "label": "Tanalt",
+      "region": "9"
+    },
+    {
+      "value": "149",
+      "label": "Zeubelemok",
+      "region": "7"
+    },
+    {
+      "value": "150",
+      "label": "Meknès‎",
+      "region": "3"
+    },
+    {
+      "value": "151",
+      "label": "Khénifra",
+      "region": "5"
+    },
+    {
+      "value": "152",
+      "label": "Agourai",
+      "region": "3"
+    },
+    {
+      "value": "153",
+      "label": "Ain Taoujdate",
+      "region": "3"
+    },
+    {
+      "value": "154",
+      "label": "MyAliCherif",
+      "region": "8"
+    },
+    {
+      "value": "155",
+      "label": "Rissani",
+      "region": "8"
+    },
+    {
+      "value": "156",
+      "label": "Amalou Ighriben",
+      "region": "5"
+    },
+    {
+      "value": "157",
+      "label": "Aoufous",
+      "region": "8"
+    },
+    {
+      "value": "158",
+      "label": "Arfoud",
+      "region": "8"
+    },
+    {
+      "value": "159",
+      "label": "Azrou",
+      "region": "3"
+    },
+    {
+      "value": "160",
+      "label": "Aïn Jemaa",
+      "region": "3"
+    },
+    {
+      "value": "161",
+      "label": "Aïn Karma",
+      "region": "3"
+    },
+    {
+      "value": "162",
+      "label": "Aïn Leuh",
+      "region": "3"
+    },
+    {
+      "value": "163",
+      "label": "Aït Boubvaluemane",
+      "region": "3"
+    },
+    {
+      "value": "164",
+      "label": "Aït Ishaq",
+      "region": "5"
+    },
+    {
+      "value": "165",
+      "label": "Boudnib",
+      "region": "8"
+    },
+    {
+      "value": "166",
+      "label": "Boufakrane",
+      "region": "3"
+    },
+    {
+      "value": "167",
+      "label": "Boumia",
+      "region": "8"
+    },
+    {
+      "value": "168",
+      "label": "El Hajeb",
+      "region": "3"
+    },
+    {
+      "value": "169",
+      "label": "Elkbab",
+      "region": "5"
+    },
+    {
+      "value": "170",
+      "label": "Er-Rich",
+      "region": "5"
+    },
+    {
+      "value": "171",
+      "label": "Errachvalueia",
+      "region": "8"
+    },
+    {
+      "value": "172",
+      "label": "Gardmit",
+      "region": "8"
+    },
+    {
+      "value": "173",
+      "label": "Goulmima",
+      "region": "8"
+    },
+    {
+      "value": "174",
+      "label": "Gourrama",
+      "region": "8"
+    },
+    {
+      "value": "175",
+      "label": "Had Bouhssoussen",
+      "region": "5"
+    },
+    {
+      "value": "176",
+      "label": "Haj Kaddour",
+      "region": "3"
+    },
+    {
+      "value": "177",
+      "label": "Ifrane",
+      "region": "3"
+    },
+    {
+      "value": "178",
+      "label": "Itzer",
+      "region": "8"
+    },
+    {
+      "value": "179",
+      "label": "Jorf",
+      "region": "8"
+    },
+    {
+      "value": "180",
+      "label": "Kehf Nsour",
+      "region": "5"
+    },
+    {
+      "value": "181",
+      "label": "Kerrouchen",
+      "region": "5"
+    },
+    {
+      "value": "182",
+      "label": "M'haya",
+      "region": "3"
+    },
+    {
+      "value": "183",
+      "label": "M'rirt",
+      "region": "5"
+    },
+    {
+      "value": "184",
+      "label": "Mvalueelt",
+      "region": "8"
+    },
+    {
+      "value": "185",
+      "label": "Moulay Ali Cherif",
+      "region": "8"
+    },
+    {
+      "value": "186",
+      "label": "Moulay Bouazza",
+      "region": "5"
+    },
+    {
+      "value": "187",
+      "label": "Moulay valueriss Zerhoun",
+      "region": "3"
+    },
+    {
+      "value": "188",
+      "label": "Moussaoua",
+      "region": "3"
+    },
+    {
+      "value": "189",
+      "label": "N'Zalat Bni Amar",
+      "region": "3"
+    },
+    {
+      "value": "190",
+      "label": "Ouaoumana",
+      "region": "5"
+    },
+    {
+      "value": "191",
+      "label": "Oued Ifrane",
+      "region": "3"
+    },
+    {
+      "value": "192",
+      "label": "Sabaa Aiyoun",
+      "region": "3"
+    },
+    {
+      "value": "193",
+      "label": "Sebt Jahjouh",
+      "region": "3"
+    },
+    {
+      "value": "194",
+      "label": "Svaluei Addi",
+      "region": "3"
+    },
+    {
+      "value": "195",
+      "label": "Tichoute",
+      "region": "8"
+    },
+    {
+      "value": "196",
+      "label": "Tighassaline",
+      "region": "5"
+    },
+    {
+      "value": "197",
+      "label": "Tighza",
+      "region": "5"
+    },
+    {
+      "value": "198",
+      "label": "Timahdite",
+      "region": "3"
+    },
+    {
+      "value": "199",
+      "label": "Tinejdad",
+      "region": "8"
+    },
+    {
+      "value": "200",
+      "label": "Tizguite",
+      "region": "3"
+    },
+    {
+      "value": "201",
+      "label": "Toulal",
+      "region": "3"
+    },
+    {
+      "value": "202",
+      "label": "Tounfite",
+      "region": "8"
+    },
+    {
+      "value": "203",
+      "label": "Zaouia d'Ifrane",
+      "region": "3"
+    },
+    {
+      "value": "204",
+      "label": "Zaïda",
+      "region": "8"
+    },
+    {
+      "value": "205",
+      "label": "Ahfir",
+      "region": "2"
+    },
+    {
+      "value": "206",
+      "label": "Aklim",
+      "region": "2"
+    },
+    {
+      "value": "207",
+      "label": "Al Aroui",
+      "region": "2"
+    },
+    {
+      "value": "208",
+      "label": "Aïn Bni Mathar",
+      "region": "2"
+    },
+    {
+      "value": "209",
+      "label": "Aïn Erreggada",
+      "region": "2"
+    },
+    {
+      "value": "210",
+      "label": "Ben Taïeb",
+      "region": "2"
+    },
+    {
+      "value": "211",
+      "label": "Berkane",
+      "region": "2"
+    },
+    {
+      "value": "212",
+      "label": "Bni Ansar",
+      "region": "2"
+    },
+    {
+      "value": "213",
+      "label": "Bni Chiker",
+      "region": "2"
+    },
+    {
+      "value": "214",
+      "label": "Bni Drar",
+      "region": "2"
+    },
+    {
+      "value": "215",
+      "label": "Bni Tadjite",
+      "region": "2"
+    },
+    {
+      "value": "216",
+      "label": "Bouanane",
+      "region": "2"
+    },
+    {
+      "value": "217",
+      "label": "Bouarfa",
+      "region": "2"
+    },
+    {
+      "value": "218",
+      "label": "Bouhdila",
+      "region": "2"
+    },
+    {
+      "value": "219",
+      "label": "Dar El Kebdani",
+      "region": "2"
+    },
+    {
+      "value": "220",
+      "label": "Debdou",
+      "region": "2"
+    },
+    {
+      "value": "221",
+      "label": "Douar Kannine",
+      "region": "2"
+    },
+    {
+      "value": "222",
+      "label": "Driouch",
+      "region": "2"
+    },
+    {
+      "value": "223",
+      "label": "El Aïoun Svaluei Mellouk",
+      "region": "2"
+    },
+    {
+      "value": "224",
+      "label": "Farkhana",
+      "region": "2"
+    },
+    {
+      "value": "225",
+      "label": "Figuig",
+      "region": "2"
+    },
+    {
+      "value": "226",
+      "label": "Ihddaden",
+      "region": "2"
+    },
+    {
+      "value": "227",
+      "label": "Jaâdar",
+      "region": "2"
+    },
+    {
+      "value": "228",
+      "label": "Jerada",
+      "region": "2"
+    },
+    {
+      "value": "229",
+      "label": "Kariat Arekmane",
+      "region": "2"
+    },
+    {
+      "value": "230",
+      "label": "Kassita",
+      "region": "2"
+    },
+    {
+      "value": "231",
+      "label": "Kerouna",
+      "region": "2"
+    },
+    {
+      "value": "232",
+      "label": "Laâtamna",
+      "region": "2"
+    },
+    {
+      "value": "233",
+      "label": "Madagh",
+      "region": "2"
+    },
+    {
+      "value": "234",
+      "label": "Mvaluear",
+      "region": "2"
+    },
+    {
+      "value": "235",
+      "label": "Nador",
+      "region": "2"
+    },
+    {
+      "value": "236",
+      "label": "Naima",
+      "region": "2"
+    },
+    {
+      "value": "237",
+      "label": "Oued Heimer",
+      "region": "2"
+    },
+    {
+      "value": "238",
+      "label": "Oujda",
+      "region": "2"
+    },
+    {
+      "value": "239",
+      "label": "Ras El Ma",
+      "region": "2"
+    },
+    {
+      "value": "240",
+      "label": "Saïdia",
+      "region": "2"
+    },
+    {
+      "value": "241",
+      "label": "Selouane",
+      "region": "2"
+    },
+    {
+      "value": "242",
+      "label": "Svaluei Boubker",
+      "region": "2"
+    },
+    {
+      "value": "243",
+      "label": "Svaluei Slimane Echcharaa",
+      "region": "2"
+    },
+    {
+      "value": "244",
+      "label": "Talsint",
+      "region": "2"
+    },
+    {
+      "value": "245",
+      "label": "Taourirt",
+      "region": "2"
+    },
+    {
+      "value": "246",
+      "label": "Tendrara",
+      "region": "2"
+    },
+    {
+      "value": "247",
+      "label": "Tiztoutine",
+      "region": "2"
+    },
+    {
+      "value": "248",
+      "label": "Touima",
+      "region": "2"
+    },
+    {
+      "value": "249",
+      "label": "Touissit",
+      "region": "2"
+    },
+    {
+      "value": "250",
+      "label": "Zaïo",
+      "region": "2"
+    },
+    {
+      "value": "251",
+      "label": "Zeghanghane",
+      "region": "2"
+    },
+    {
+      "value": "252",
+      "label": "Rabat",
+      "region": "4"
+    },
+    {
+      "value": "253",
+      "label": "Salé",
+      "region": "4"
+    },
+    {
+      "value": "254",
+      "label": "Ain El Aouda",
+      "region": "4"
+    },
+    {
+      "value": "255",
+      "label": "Harhoura",
+      "region": "4"
+    },
+    {
+      "value": "256",
+      "label": "Khémisset",
+      "region": "4"
+    },
+    {
+      "value": "257",
+      "label": "Oulmès",
+      "region": "4"
+    },
+    {
+      "value": "258",
+      "label": "Rommani",
+      "region": "4"
+    },
+    {
+      "value": "259",
+      "label": "Svaluei Allal El Bahraoui",
+      "region": "4"
+    },
+    {
+      "value": "260",
+      "label": "Svaluei Bouknadel",
+      "region": "4"
+    },
+    {
+      "value": "261",
+      "label": "Skhirate",
+      "region": "4"
+    },
+    {
+      "value": "262",
+      "label": "Tamesna",
+      "region": "4"
+    },
+    {
+      "value": "263",
+      "label": "Témara",
+      "region": "4"
+    },
+    {
+      "value": "264",
+      "label": "Tvaluedas",
+      "region": "4"
+    },
+    {
+      "value": "265",
+      "label": "Tiflet",
+      "region": "4"
+    },
+    {
+      "value": "266",
+      "label": "Touarga",
+      "region": "4"
+    },
+    {
+      "value": "267",
+      "label": "Agadir",
+      "region": "9"
+    },
+    {
+      "value": "268",
+      "label": "Agdz",
+      "region": "8"
+    },
+    {
+      "value": "269",
+      "label": "Agni Izimmer",
+      "region": "9"
+    },
+    {
+      "value": "270",
+      "label": "Aït Melloul",
+      "region": "9"
+    },
+    {
+      "value": "271",
+      "label": "Alnif",
+      "region": "8"
+    },
+    {
+      "value": "272",
+      "label": "Anzi",
+      "region": "9"
+    },
+    {
+      "value": "273",
+      "label": "Aoulouz",
+      "region": "9"
+    },
+    {
+      "value": "274",
+      "label": "Aourir",
+      "region": "9"
+    },
+    {
+      "value": "275",
+      "label": "Arazane",
+      "region": "9"
+    },
+    {
+      "value": "276",
+      "label": "Aït Baha",
+      "region": "9"
+    },
+    {
+      "value": "277",
+      "label": "Aït Iaâza",
+      "region": "9"
+    },
+    {
+      "value": "278",
+      "label": "Aït Yalla",
+      "region": "8"
+    },
+    {
+      "value": "279",
+      "label": "Ben Sergao",
+      "region": "9"
+    },
+    {
+      "value": "280",
+      "label": "Biougra",
+      "region": "9"
+    },
+    {
+      "value": "281",
+      "label": "Boumalne-Dadès",
+      "region": "8"
+    },
+    {
+      "value": "282",
+      "label": "Dcheira El Jihadia",
+      "region": "9"
+    },
+    {
+      "value": "283",
+      "label": "Drargua",
+      "region": "9"
+    },
+    {
+      "value": "284",
+      "label": "El Guerdane",
+      "region": "9"
+    },
+    {
+      "value": "285",
+      "label": "Harte Lyamine",
+      "region": "8"
+    },
+    {
+      "value": "286",
+      "label": "valuea Ougnvalueif",
+      "region": "9"
+    },
+    {
+      "value": "287",
+      "label": "Ifri",
+      "region": "8"
+    },
+    {
+      "value": "288",
+      "label": "Igdamen",
+      "region": "9"
+    },
+    {
+      "value": "289",
+      "label": "Ighil n'Oumgoun",
+      "region": "8"
+    },
+    {
+      "value": "290",
+      "label": "Imassine",
+      "region": "8"
+    },
+    {
+      "value": "291",
+      "label": "Inezgane",
+      "region": "9"
+    },
+    {
+      "value": "292",
+      "label": "Irherm",
+      "region": "9"
+    },
+    {
+      "value": "293",
+      "label": "Kelaat-M'Gouna",
+      "region": "8"
+    },
+    {
+      "value": "294",
+      "label": "Lakhsas",
+      "region": "9"
+    },
+    {
+      "value": "295",
+      "label": "Lakhsass",
+      "region": "9"
+    },
+    {
+      "value": "296",
+      "label": "Lqliâa",
+      "region": "9"
+    },
+    {
+      "value": "297",
+      "label": "M'semrir",
+      "region": "8"
+    },
+    {
+      "value": "298",
+      "label": "Massa (Maroc)",
+      "region": "9"
+    },
+    {
+      "value": "299",
+      "label": "Megousse",
+      "region": "9"
+    },
+    {
+      "value": "300",
+      "label": "Ouarzazate",
+      "region": "8"
+    },
+    {
+      "value": "301",
+      "label": "Oulad Berhil",
+      "region": "9"
+    },
+    {
+      "value": "302",
+      "label": "Oulad Teïma",
+      "region": "9"
+    },
+    {
+      "value": "303",
+      "label": "Sarghine",
+      "region": "8"
+    },
+    {
+      "value": "304",
+      "label": "Svaluei Ifni",
+      "region": "10"
+    },
+    {
+      "value": "305",
+      "label": "Skoura",
+      "region": "8"
+    },
+    {
+      "value": "306",
+      "label": "Tabounte",
+      "region": "8"
+    },
+    {
+      "value": "307",
+      "label": "Tafraout",
+      "region": "9"
+    },
+    {
+      "value": "308",
+      "label": "Taghzout",
+      "region": "1"
+    },
+    {
+      "value": "309",
+      "label": "Tagzen",
+      "region": "9"
+    },
+    {
+      "value": "310",
+      "label": "Taliouine",
+      "region": "9"
+    },
+    {
+      "value": "311",
+      "label": "Tamegroute",
+      "region": "8"
+    },
+    {
+      "value": "312",
+      "label": "Tamraght",
+      "region": "9"
+    },
+    {
+      "value": "313",
+      "label": "Tanoumrite Nkob Zagora",
+      "region": "8"
+    },
+    {
+      "value": "314",
+      "label": "Taourirt ait zaghar",
+      "region": "8"
+    },
+    {
+      "value": "315",
+      "label": "Taroudannt",
+      "region": "9"
+    },
+    {
+      "value": "316",
+      "label": "Temsia",
+      "region": "9"
+    },
+    {
+      "value": "317",
+      "label": "Tifnit",
+      "region": "9"
+    },
+    {
+      "value": "318",
+      "label": "Tisgdal",
+      "region": "9"
+    },
+    {
+      "value": "319",
+      "label": "Tiznit",
+      "region": "9"
+    },
+    {
+      "value": "320",
+      "label": "Toundoute",
+      "region": "8"
+    },
+    {
+      "value": "321",
+      "label": "Zagora",
+      "region": "8"
+    },
+    {
+      "value": "322",
+      "label": "Afourar",
+      "region": "5"
+    },
+    {
+      "value": "323",
+      "label": "Aghbala",
+      "region": "5"
+    },
+    {
+      "value": "324",
+      "label": "Azilal",
+      "region": "5"
+    },
+    {
+      "value": "325",
+      "label": "Aït Majden",
+      "region": "5"
+    },
+    {
+      "value": "326",
+      "label": "Beni Ayat",
+      "region": "5"
+    },
+    {
+      "value": "327",
+      "label": "Béni Mellal",
+      "region": "5"
+    },
+    {
+      "value": "328",
+      "label": "Bin elouvalueane",
+      "region": "5"
+    },
+    {
+      "value": "329",
+      "label": "Bradia",
+      "region": "5"
+    },
+    {
+      "value": "330",
+      "label": "Bzou",
+      "region": "5"
+    },
+    {
+      "value": "331",
+      "label": "Dar Oulad Zvalueouh",
+      "region": "5"
+    },
+    {
+      "value": "332",
+      "label": "Demnate",
+      "region": "5"
+    },
+    {
+      "value": "333",
+      "label": "Dra'a",
+      "region": "8"
+    },
+    {
+      "value": "334",
+      "label": "El Ksiba",
+      "region": "5"
+    },
+    {
+      "value": "335",
+      "label": "Foum Jamaa",
+      "region": "5"
+    },
+    {
+      "value": "336",
+      "label": "Fquih Ben Salah",
+      "region": "5"
+    },
+    {
+      "value": "337",
+      "label": "Kasba Tadla",
+      "region": "5"
+    },
+    {
+      "value": "338",
+      "label": "Ouaouizeght",
+      "region": "5"
+    },
+    {
+      "value": "339",
+      "label": "Oulad Ayad",
+      "region": "5"
+    },
+    {
+      "value": "340",
+      "label": "Oulad M'Barek",
+      "region": "5"
+    },
+    {
+      "value": "341",
+      "label": "Oulad Yaich",
+      "region": "5"
+    },
+    {
+      "value": "342",
+      "label": "Svaluei Jaber",
+      "region": "5"
+    },
+    {
+      "value": "343",
+      "label": "Souk Sebt Oulad Nemma",
+      "region": "5"
+    },
+    {
+      "value": "344",
+      "label": "Zaouïat Cheikh",
+      "region": "5"
+    },
+    {
+      "value": "345",
+      "label": "Tanger‎",
+      "region": "1"
+    },
+    {
+      "value": "346",
+      "label": "Tétouan‎",
+      "region": "1"
+    },
+    {
+      "value": "347",
+      "label": "Akchour",
+      "region": "1"
+    },
+    {
+      "value": "348",
+      "label": "Assilah",
+      "region": "1"
+    },
+    {
+      "value": "349",
+      "label": "Bab Berred",
+      "region": "1"
+    },
+    {
+      "value": "350",
+      "label": "Bab Taza",
+      "region": "1"
+    },
+    {
+      "value": "351",
+      "label": "Brikcha",
+      "region": "1"
+    },
+    {
+      "value": "352",
+      "label": "Chefchaouen",
+      "region": "1"
+    },
+    {
+      "value": "353",
+      "label": "Dar Bni Karrich",
+      "region": "1"
+    },
+    {
+      "value": "354",
+      "label": "Dar Chaoui",
+      "region": "1"
+    },
+    {
+      "value": "355",
+      "label": "Fnvalueeq",
+      "region": "1"
+    },
+    {
+      "value": "356",
+      "label": "Gueznaia",
+      "region": "1"
+    },
+    {
+      "value": "357",
+      "label": "Jebha",
+      "region": "1"
+    },
+    {
+      "value": "358",
+      "label": "Karia",
+      "region": "3"
+    },
+    {
+      "value": "359",
+      "label": "Khémis Sahel",
+      "region": "1"
+    },
+    {
+      "value": "360",
+      "label": "Ksar El Kébir",
+      "region": "1"
+    },
+    {
+      "value": "361",
+      "label": "Larache",
+      "region": "1"
+    },
+    {
+      "value": "362",
+      "label": "M'diq",
+      "region": "1"
+    },
+    {
+      "value": "363",
+      "label": "Martil",
+      "region": "1"
+    },
+    {
+      "value": "364",
+      "label": "Moqrisset",
+      "region": "1"
+    },
+    {
+      "value": "365",
+      "label": "Oued Laou",
+      "region": "1"
+    },
+    {
+      "value": "366",
+      "label": "Oued Rmel",
+      "region": "1"
+    },
+    {
+      "value": "367",
+      "label": "Ouazzane",
+      "region": "1"
+    },
+    {
+      "value": "368",
+      "label": "Point Cires",
+      "region": "1"
+    },
+    {
+      "value": "369",
+      "label": "Svaluei Lyamani",
+      "region": "1"
+    },
+    {
+      "value": "370",
+      "label": "Svaluei Mohamed ben Abdallah el-Raisuni",
+      "region": "1"
+    },
+    {
+      "value": "371",
+      "label": "Zinat",
+      "region": "1"
+    },
+    {
+      "value": "372",
+      "label": "Ajdir‎",
+      "region": "1"
+    },
+    {
+      "value": "373",
+      "label": "Aknoul‎",
+      "region": "3"
+    },
+    {
+      "value": "374",
+      "label": "Al Hoceïma‎",
+      "region": "1"
+    },
+    {
+      "value": "375",
+      "label": "Aït Hichem‎",
+      "region": "1"
+    },
+    {
+      "value": "376",
+      "label": "Bni Bouayach‎",
+      "region": "1"
+    },
+    {
+      "value": "377",
+      "label": "Bni Hadifa‎",
+      "region": "1"
+    },
+    {
+      "value": "378",
+      "label": "Ghafsai‎",
+      "region": "3"
+    },
+    {
+      "value": "379",
+      "label": "Guercif‎",
+      "region": "2"
+    },
+    {
+      "value": "380",
+      "label": "Imzouren‎",
+      "region": "1"
+    },
+    {
+      "value": "381",
+      "label": "Inahnahen‎",
+      "region": "1"
+    },
+    {
+      "value": "382",
+      "label": "Issaguen (Ketama)‎",
+      "region": "1"
+    },
+    {
+      "value": "383",
+      "label": "Karia (El Jadvaluea)‎",
+      "region": "6"
+    },
+    {
+      "value": "384",
+      "label": "Karia Ba Mohamed‎",
+      "region": "3"
+    },
+    {
+      "value": "385",
+      "label": "Oued Amlil‎",
+      "region": "3"
+    },
+    {
+      "value": "386",
+      "label": "Oulad Zbair‎",
+      "region": "3"
+    },
+    {
+      "value": "387",
+      "label": "Tahla‎",
+      "region": "3"
+    },
+    {
+      "value": "388",
+      "label": "Tala Tazegwaght‎",
+      "region": "1"
+    },
+    {
+      "value": "389",
+      "label": "Tamassint‎",
+      "region": "1"
+    },
+    {
+      "value": "390",
+      "label": "Taounate‎",
+      "region": "3"
+    },
+    {
+      "value": "391",
+      "label": "Targuist‎",
+      "region": "1"
+    },
+    {
+      "value": "392",
+      "label": "Taza‎",
+      "region": "3"
+    },
+    {
+      "value": "393",
+      "label": "Taïnaste‎",
+      "region": "3"
+    },
+    {
+      "value": "394",
+      "label": "Thar Es-Souk‎",
+      "region": "3"
+    },
+    {
+      "value": "395",
+      "label": "Tissa‎",
+      "region": "3"
+    },
+    {
+      "value": "396",
+      "label": "Tizi Ouasli‎",
+      "region": "3"
+    },
+    {
+      "value": "397",
+      "label": "Laayoune‎",
+      "region": "11"
+    },
+    {
+      "value": "398",
+      "label": "El Marsa‎",
+      "region": "11"
+    },
+    {
+      "value": "399",
+      "label": "Tarfaya‎",
+      "region": "11"
+    },
+    {
+      "value": "400",
+      "label": "Boujdour‎",
+      "region": "11"
+    },
+    {
+      "value": "401",
+      "label": "Awsard",
+      "region": "12"
+    },
+    {
+      "value": "402",
+      "label": "Oued-Eddahab",
+      "region": "12"
+    },
+    {
+      "value": "403",
+      "label": "Stehat",
+      "region": "1"
+    },
+    {
+      "value": "404",
+      "label": "Aït Attab",
+      "region": "5"
+    }
+  ]
+}

@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<title>Edit Profile</title>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<%- include('./layout/css') -%>
+	<style>
+		.stats {
+			padding: 10px 18px;
+			background: #fff;
+			width: 100%;
+			border: 1px solid #dbdbdb;
+			float: inherit;
+		}
+
+		.stats_icon {
+			float: right;
+			font-size: 32px;
+			color: #f7b131;
+		}
+
+		.stats_title {
+			float: left;
+			padding-top: 8px;
+			font-size: 20px;
+		}
+
+		.stats_count {
+			margin-top: 15px;
+			width: 100%;
+			float: left;
+			border-bottom: 1px solid #000;
+			font-size: 30px;
+			font-weight: 900;
+		}
+	</style>
+
+
+</head>
+
+<body>
+
+
+
+	<%- include('./layout/header') -%>
+
+
+	<%- include('./layout/sidebar') -%>
+
+	<div class="main-site-area-wrapper" id="sliding2">
+
+		<div class="admin-dashboard-wrapper clearfix">
+			<div class="conatiner-fluid clearfix">
+				<div class="dashboard-heading clearfix">
+					<h2>Email Management</h2>
+				</div>
+				<div class="col-md-12" style="margin-top: 12px;">
+					<a href="/downlaod" class="btn"
+						style="background-color: #2dbef7;color: #fff;">Download Emails</a>
+				</div>
+				<div class="col-md-12">
+					<div class="height-wrapper">
+
+						<div class="dashboard-content clearfix"
+							style="height: auto !important;padding-bottom: 0px !important">
+							<div class="form-wrapper clearfix" style="padding: 40px !important">
+
+								<form id="new-email">
+									<div class="col-md-4">
+										<label>
+											<span>First Name</span>
+											<input type="text" name="first_name" onkeypress="return removeSpace(event)">
+										</label>
+									</div>
+									<div class="col-md-4">
+										<label>
+											<span>Last Name</span>
+											<input type="text" name="last_name" onkeypress="return removeSpace(event)">
+										</label>
+									</div>
+									<div class="col-md-4">
+										<label>
+											<span>Phone</span>
+											<input type="text" name="phone" onkeypress="return isNumberKey(event)">
+										</label>
+									</div>
+									<div class="col-md-12">
+										<button type="submit" class="btn"
+											style="background-color: #2dbef7;color: #fff;">Create New Email</button>
+									</div>
+								</form>
+
+
+								<table class="table table-bordered table-hover" id="example" style="width:100%;">
+									<thead class="text-center">
+										<tr>
+											<th class="text-center">Email</th>
+											<th class="text-center">Phone</th>
+											<th class="text-center">Action</th>
+										</tr>
+									</thead>
+									<tbody class="text-center"></tbody>
+								</table>
+							</div>
+
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+
+
+	</div>
+
+	<%- include('./layout/javascript') -%>
+	<script>
+		function isNumberKey(evt) {      //onkeypress="return isNumberKey(event)"
+			var charCode = (evt.which) ? evt.which : event.keyCode;
+			if (charCode != 46 && charCode > 31 && (charCode < 48 || charCode > 57)) {
+				return false;
+			} else {
+				return true;
+			}
+		}
+		function removeSpace(evt) {
+			if (evt.which === 32)
+				return false;
+		}
+		$(document).ready(function () {
+			$.fn.serializeObject = function () {
+				var o = {};
+				var a = this.serializeArray();
+				$.each(a, function () {
+					if (o[this.name] !== undefined) {
+						if (!o[this.name].push) {
+							o[this.name] = [o[this.name]];
+						}
+						o[this.name].push(this.value || '');
+					} else {
+						o[this.name] = this.value || '';
+					}
+				});
+				return o;
+			};
+
+			$('#new-email').on('submit', function (e) {
+				e.preventDefault();
+				blockUi();
+				var data = $('#new-email').serializeObject();
+				$.ajax({
+					type: 'post',
+					url: '/new-email',
+					dataType: 'json',
+					data: data,
+					success: function (data) {
+						$.unblockUI();
+						if (data.status == 1) {
+							toastr.success(data.message);
+							setTimeout(() => {
+								window.location.reload();
+							}, 1500);
+						}
+						if (data.status == 0) {
+							toastr.error(data.message);
+						}
+					}
+				});
+			});
+
+
+
+			$(document).on('click', '.paginate_button', function () {
+				blockUi();
+			});
+			$(document).on('click', '.delete_email', function () {
+				blockUi();
+				var id = $(this).attr('email-id');
+				var data = { id };
+				$.ajax({
+					type: 'post',
+					url: '/delete-email',
+					dataType: 'json',
+					data: data,
+					success: function (data) {
+						$.unblockUI();
+						if (data.status == 1) {
+							toastr.success(data.message);
+							setTimeout(() => {
+								window.location.reload();
+							}, 1500);
+						}
+						if (data.status == 0) {
+							toastr.error(data.message);
+						}
+					}
+				});
+			});
+
+			// var i = 1;
+			blockUi();
+			$('#example').DataTable({
+				serverSide: true,
+				bLengthChange: false,
+				pageLength: 30,
+				ajax: {
+					url: '/get-emails',
+					type: 'GET',
+					dataSrc: "emails"
+				},
+				columns: [
+					{
+						data: 'email', render: function (data, type, row) {
+							$.unblockUI();
+							$.fn.dataTable.render.text()
+							if (!data) {
+								return '<span style="color:red;">N/A</span>';
+							} else {
+								return data;
+							}
+						}
+					},
+					{
+						data: 'phone', render: function (data, type, row) {
+							$.fn.dataTable.render.text();
+							if (!data) {
+								return '<span style="color:red;">N/A</span>';
+							} else {
+								return data;
+							}
+						}
+					},
+					{
+						data: null, render: function (data, type, row) {
+							return '<span email-id="' + row._id + '" class="btn delete_email" style="background: #2dbef7;color:#fff;margin-right: 10px;">Delete</span>';
+						}
+					}
+				]
+			});
+
+		});
+	</script>
+
+
+</body>
+
+</html>

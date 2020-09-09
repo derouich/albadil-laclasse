@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<title>Edit Profile</title>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<%- include('./layout/css') -%>
+	<style>
+		.stats { padding: 10px 18px; background: #fff; width: 100%; border: 1px solid #dbdbdb; float: inherit;  }
+		.stats:hover{ box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19); }
+		.stats_icon{ float:right;font-size: 45px;color: #2dbef7; }
+		.stats_title {float:left;padding-top: 8px; font-size: 20px; }
+		.stats_count{ margin-top: 15px;width: 100%;float:left;border-bottom: 1px solid #000;font-size: 30px;font-weight: 900; }
+	</style>
+
+
+</head>
+
+<body>
+
+	<%- include('./layout/header') -%>
+	<%- include('./layout/sidebar') -%>
+
+	<div class="main-site-area-wrapper" id="sliding2">
+
+		<div class="admin-dashboard-wrapper clearfix">
+			<div class="conatiner-fluid clearfix">
+				<div>
+					<div class="col-md-4">
+						<div class="stats">
+							<div style="width: 100%;">
+								<span class="stats_title"> Total Users: </span>
+								<span class="stats_icon"> <i class="fas fa-users"></i> </span>
+							</div>
+							<div class="stats_count counter"> <%= users %> </div>
+						</div>
+					</div>
+
+					<div class="col-md-4">
+						<div class="stats">
+							<div style="width: 100%;">
+								<span class="stats_title"> Total Teachers: </span>
+								<span class="stats_icon"> <i class="fas fa-chalkboard-teacher"></i> </span>
+							</div>
+							<div class="stats_count counter"> <%= teachers %> </div>
+						</div>
+					</div>
+
+					<div class="col-md-4">
+						<div class="stats">
+							<div style="width: 100%;">
+								<span class="stats_title"> Total Students: </span>
+								<span class="stats_icon"> <i class="fas fa-user-graduate" aria-hidden="true"></i> </span>
+							</div>
+							<div class="stats_count counter"> <%= students %> </div>
+						</div>
+					</div>
+					<div class="col-md-4" style="margin-top: 20px;">
+						<div class="stats">
+							<div style="width: 100%;">
+								<span class="stats_title"> Total Courses: </span>
+								<span class="stats_icon"> <i class="fa fa-book" aria-hidden="true"></i> </span>
+							</div>
+							<div class="stats_count counter"> <%= courses %> </div>
+						</div>
+					</div>
+					<div class="col-md-4" style="margin-top: 20px;">
+						<div class="stats">
+							<div style="width: 100%;">
+								<span class="stats_title"> Total Classes: </span>
+								<span class="stats_icon"> <i class="fas fa-graduation-cap"></i> </span>
+							</div>
+							<div class="stats_count counter"> <%= classes %> </div>
+						</div>
+					</div>
+					<div class="col-md-4" style="margin-top: 20px;">
+						<div class="stats">
+							<div style="width: 100%;">
+								<span class="stats_title"> Total Admins: </span>
+								<span class="stats_icon"> <i class="fa fa-user-cog" aria-hidden="true"></i> </span>
+							</div>
+							<div class="stats_count counter"> <%= admins %> </div>
+						</div>
+					</div>
+
+
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<%- include('./layout/javascript') -%>
+	<script src="/assets/js/jquery.counterup.min.js"></script>
+	<script src="/assets/js/jquery.waypoints.min.js"></script>
+	<script>
+		$('.counter').counterUp({
+            delay: 5,
+            time: 600
+        });
+	</script>
+
+
+</body>
+
+</html>

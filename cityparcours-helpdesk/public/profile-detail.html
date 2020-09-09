@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+
+		<title>Profile Detail</title>
+
+		<meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+
+		<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+
+		<link rel="stylesheet" type="text/css" href="assets/css/front.css">
+
+
+	</head>
+
+	<body>
+
+		<!-- main-header -->
+
+		<header class="main-header-wrapper" id="sliding3">
+			<div class="container-fluid">
+				<div class="row clearfix">
+
+					<div class="top-left-header">
+						<ul>
+							<li><a onclick="slide_menu()" href="#"><i class="fas fa-bars"></i></a></li>
+							<li>
+								<a href="#">Activity</a>
+								<ul>
+									<li><a href="#">Menu</a></li>
+									<li><a href="#">Menu</a></li>
+									<li>
+										<a href="#">Submenu <i class="fas fa-caret-right"></i></a>
+										<ul>
+											<li><a href="#">Menu</a></li>
+											<li><a href="#">Menu</a></li>
+
+											<li>
+												<a href="#">Submenu <i class="fas fa-caret-right"></i></a>
+												<ul>
+													<li><a href="#">Menu</a></li>
+													<li><a href="#">Menu</a></li>
+												</ul>
+											</li>
+
+										</ul>
+									</li>
+									<li><a href="#">Menu</a></li>
+									<li><a href="#">Menu</a></li>
+									<li>
+										<a href="#">Submenu <i class="fas fa-caret-right"></i></a>
+										<ul>
+											<li><a href="#">Menu</a></li>
+											<li><a href="#">Menu</a></li>
+											<li><a href="#">Menu</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+
+					<div class="top-right-header">
+						<ul>
+							<li><a href="#"><i class="fas fa-search"></i></a></li>
+							<li><a href="#"><i class="fas fa-envelope"></i></a></li>
+							<li><a href="#"><i class="fas fa-bell"></i><span>0</span></a></li>
+							<li class="dropdown">
+								<a class="dropdown-toggle" data-toggle="dropdown" href="#"><img src="assets/images/small-profile.png" alt="profile"></a>
+								<ul class="dropdown-menu">
+									<li><a href="#"><i class="fas fa-pencil-alt"></i> &nbsp;&nbsp;Edit</a></li>
+									<li><a href="#"><i class="fas fa-cog"></i> &nbsp;&nbsp;Setting</a></li>
+									<li><a href="#"><i class="fas fa-sign-out-alt"></i> &nbsp;&nbsp;Logout</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+
+				</div>
+			</div>
+		</header>
+
+		<!-- main-header closed -->
+
+		<!-- left-fixed-menu -->
+
+		<div class="fixed-left-menu-wrapper" id="sliding">
+			<ul>
+				<li class="text-center"><a href="index.html"><img src="assets/images/logog.png" alt="logo"></a></li>
+				<li>
+					<a data-toggle="collapse" data-target="#demo1" href="#"><i class="fas fa-th-large"></i> <div class="hide-wraper">Cruds</div> <span class="fas fa-caret-right"></span></a>
+					<ul id="demo1" class="collapse">
+						<li><a href="skills.html"><i class="fas fa-user-tie"></i> Skills</a></li>
+						<li><a href="school.html"><i class="fas fa-user-tie"></i> School</a></li>
+						<li><a href="degree.html"><i class="fas fa-user-tie"></i> Degree</a></li>
+						<li><a href="job-title.html"><i class="fas fa-user-tie"></i> Job Title</a></li>
+						<li><a href="companies.html"><i class="fas fa-user-tie"></i> Companies</a></li>
+						<li><a href="country.html"><i class="fas fa-user-tie"></i> Countries</a></li>
+					</ul>
+				</li>
+				<li>
+					<a data-toggle="collapse" data-target="#demo1" href="#"><i class="fas fa-th-large"></i> <div class="hide-wraper">Dashboard</div> <span class="fas fa-caret-right"></span></a>
+					<ul id="demo1" class="collapse">
+						<li><a href="skills.html"><i class="fas fa-user-tie"></i> Skills</a></li>
+						<li><a href="school.html"><i class="fas fa-user-tie"></i> School</a></li>
+						<li><a href="degree.html"><i class="fas fa-user-tie"></i> Degree</a></li>
+						<li><a href="job-title.html"><i class="fas fa-user-tie"></i> Job Title</a></li>
+						<li><a href="companies.html"><i class="fas fa-user-tie"></i> Companies</a></li>
+						<li><a href="country.html"><i class="fas fa-user-tie"></i> Countries</a></li>
+					</ul>
+				</li>
+				<li>
+					<a data-toggle="collapse" data-target="#demo2" href="#"><i class="fas fa-user-tie"></i> <div class="hide-wraper">Profile</div> <span class="fas fa-caret-right"></span></a>
+					<ul id="demo2" class="collapse">
+						<li><a href="#"><i class="fas fa-user-tie"></i> Menu</a></li>
+						<li><a href="#"><i class="fas fa-user-tie"></i> Menu</a></li>
+						<li><a href="#"><i class="fas fa-user-tie"></i> Menu</a></li>
+						<li><a href="#"><i class="fas fa-user-tie"></i> Menu</a></li>
+						<li><a href="#"><i class="fas fa-user-tie"></i> Menu</a></li>
+					</ul>
+				</li>
+				<li>
+					<a data-toggle="collapse" data-target="#demo3" href="#"><i class="fas fa-bell"></i> <div class="hide-wraper">Notification</div> <span class="fas fa-caret-right"></span></a>
+					<ul id="demo3" class="collapse">
+						<li><a href="#"> <i class="fas fa-user-tie"></i>Menu</a></li>
+						<li><a href="#"> <i class="fas fa-user-tie"></i>Menu</a></li>
+						<li><a href="#"> <i class="fas fa-user-tie"></i>Menu</a></li>
+						<li><a href="#"> <i class="fas fa-user-tie"></i>Menu</a></li>
+						<li><a href="#"> <i class="fas fa-user-tie"></i>Menu</a></li>
+					</ul>
+				</li>
+				<li>
+					<a data-toggle="collapse" data-target="#demo4" href="#"><i class="fas fa-envelope"></i> <div class="hide-wraper">Message</div> <span class="fas fa-caret-right"></span></a>
+					<ul id="demo4" class="collapse">
+						<li><a href="#"> <i class="fas fa-user-tie"></i>Menu</a></li>
+						<li><a href="#"> <i class="fas fa-user-tie"></i>Menu</a></li>
+						<li><a href="#"> <i class="fas fa-user-tie"></i>Menu</a></li>
+						<li><a href="#"> <i class="fas fa-user-tie"></i>Menu</a></li>
+						<li><a href="#"> <i class="fas fa-user-tie"></i>Menu</a></li>
+					</ul>
+				</li>
+				<li>
+					<a data-toggle="collapse" data-target="#demo5" href="#"><i class="fas fa-briefcase"></i> <div class="hide-wraper">Job Posting</div> <span class="fas fa-caret-right"></span></a>
+					<ul id="demo5" class="collapse">
+						<li><a href="#"><i class="fas fa-user-tie"></i> Menu</a></li>
+						<li><a href="#"><i class="fas fa-user-tie"></i> Menu</a></li>
+						<li><a href="#"><i class="fas fa-user-tie"></i> Menu</a></li>
+						<li><a href="#"><i class="fas fa-user-tie"></i> Menu</a></li>
+						<li><a href="#"><i class="fas fa-user-tie"></i> Menu</a></li>
+					</ul>
+				</li>
+				<li>
+					<a data-toggle="collapse" data-target="#demo6" href="#"><i class="fas fa-lock"></i> <div class="hide-wraper">Security</div> <span class="fas fa-caret-right"></span></a>
+					<ul id="demo6" class="collapse">
+						<li><a href="#"><i class="fas fa-user-tie"></i> Menu</a></li>
+						<li><a href="#"><i class="fas fa-user-tie"></i> Menu</a></li>
+						<li><a href="#"><i class="fas fa-user-tie"></i> Menu</a></li>
+						<li><a href="#"><i class="fas fa-user-tie"></i> Menu</a></li>
+						<li><a href="#"><i class="fas fa-user-tie"></i> Menu</a></li>
+					</ul>
+				</li>
+				<li>
+					<a data-toggle="collapse" data-target="#demo7" href="#"><i class="fas fa-sign-out-alt"></i> <div class="hide-wraper">Logout</div> <span class="fas fa-caret-right"></span></a>
+					<ul id="demo7" class="collapse">
+						<li><a href="#"><i class="fas fa-user-tie"></i> Menu</a></li>
+						<li><a href="#"><i class="fas fa-user-tie"></i> Menu</a></li>
+						<li><a href="#"><i class="fas fa-user-tie"></i> Menu</a></li>
+						<li><a href="#"><i class="fas fa-user-tie"></i> Menu</a></li>
+						<li><a href="#"><i class="fas fa-user-tie"></i> Menu</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+
+		<!-- left-fixed-menu closed -->
+
+		<!-- main-site-area-wrapper -->
+
+		<div class="main-site-area-wrapper" id="sliding2">
+
+			<div class="admin-dashboard-wrapper clearfix">
+				<div class="conatiner-fluid clearfix">
+
+					<div class="dashboard-heading clearfix">
+						<h2>My Profile</h2>
+						<ul>
+							<li>Technerds / Dashboard</li>
+						</ul>
+					</div>
+
+					<div class="col-md-3">
+						<div class="dashboard-profile">
+
+							<div class="show-profile">
+								<form id="form1" runat="server">
+									<img id="image_upload_preview" src="assets/images/profile.png" alt="profile">
+									<label>
+										<input type="file" id="inputFile">
+										<span>Upload picture</span>
+									</label>
+								</form>
+							</div>
+
+							<div class="media-wrapper">
+								<ul>
+									<li class="active"><a href="#"><i class="fas fa-file-signature"></i> Personal Detail <span class="fas fa-caret-right"></span></a></li>
+									<li><a href="#"><i class="fas fa-cog"></i> Account Detail <span class="fas fa-caret-right"></span></a></li>
+									<li><a href="#"><i class="fas fa-cog"></i> Account Detail <span class="fas fa-caret-right"></span></a></li>
+									<li><a href="#"><i class="fas fa-briefcase"></i> Jobe Detail <span class="fas fa-caret-right"></span></a></li>
+								</ul>
+							</div>
+
+						</div>
+					</div>
+					<div class="col-md-9 removepadd">
+						<div class="height-wrapper">
+							<div class="dashboard-content clearfix">
+
+								<div class="form-heading"><h2>Personal Detail</h2></div>
+
+								<div class="form-wrapper clearfix">
+									<div class="col-md-6">
+										<label>
+											<span>First Name</span>
+											<input type="text" placeholder="">
+										</label>
+									</div>
+									<div class="col-md-6">
+										<label>
+											<span>Last Name</span>
+											<input type="text" placeholder="">
+										</label>
+									</div>
+									<div class="col-md-6">
+										<label>
+											<span>Username</span>
+											<input type="text" placeholder="">
+										</label>
+									</div>
+									<div class="col-md-6">
+										<label>
+											<span>Email</span>
+											<input type="text" placeholder="">
+										</label>
+									</div>
+									<div class="col-md-6">
+										<label>
+											<span>Phone Number</span>
+											<input type="text" placeholder="">
+										</label>
+									</div>
+									<div class="col-md-6">
+										<label>
+											<span>Mobile Number</span>
+											<input type="text" placeholder="">
+										</label>
+									</div>
+									<div class="col-md-6">
+										<label>
+											<span>Password</span>
+											<input type="password" placeholder="">
+										</label>
+									</div>
+									<div class="col-md-6">
+										<label>
+											<span>Confirm Password</span>
+											<input type="password" placeholder="">
+										</label>
+									</div>
+									<div class="col-md-6">
+										<label>
+											<span>Zip Code</span>
+											<input type="text" placeholder="">
+										</label>
+									</div>
+									<div class="col-md-6">
+										<label>
+											<span>Address</span>
+											<input type="text" placeholder="">
+										</label>
+									</div>
+									<div class="col-md-12">
+										<label>
+											<span>About</span>
+											<textarea placeholder=""></textarea>
+										</label>
+									</div>
+									<div class="col-md-12 radio-btns">
+										<label>
+											<input type="radio" name="name">
+											<span>Male</span>
+										</label>
+										<label>
+											<input type="radio" name="name">
+											<span>Female</span>
+										</label>
+									</div>
+								</div>
+
+							</div>
+							<div class="save-btn-wrapper">
+								<button type="submit" data-toggle="modal" data-target="#myModal-1">Cancel</button>
+								<button type="submit" data-toggle="modal" data-target="#myModal-2">Save</button>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+			<!-- <div class="social-media clearfix text-center">
+				<ul>
+					<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+					<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+					<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+				</ul>
+			</div> -->
+
+		</div>
+
+		<!-- main-site-area-wrapper closed -->
+
+		<!-- modals here -->
+
+		<div class="modal fade" tabindex="-1" role="dialog" id="myModal-1">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h4 class="modal-title">Modal Title</h4>
+					</div>
+					<div class="modal-body">
+						<div class="modals-forms">
+							<form>
+								<div class="input-grp">
+									<span>Project Title</span>
+									<input type="text">
+								</div>
+								<div class="input-grp">
+									<span>Manager</span>
+									<input type="text">
+								</div>
+							</form>
+						</div>
+					</div>
+					<div class="modal-footer">
+						<div class="text-right"><button style="box-shadow:none;" type="button" class="btn-small">Save</button></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="modal fade" tabindex="-1" role="dialog" id="myModal-2">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h4 class="modal-title">Modal Title</h4>
+					</div>
+					<div class="modal-body">
+						<div class="modals-forms">
+							<form>
+								<div class="input-grp">
+									<span>Project Title</span>
+									<select>
+										<option>Select</option>
+										<option>Select</option>
+										<option>Select</option>
+									</select>
+								</div>
+								<div class="input-grp">
+									<span>Manager</span>
+									<select>
+										<option>Select</option>
+										<option>Select</option>
+										<option>Select</option>
+									</select>
+								</div>
+							</form>
+						</div>
+					</div>
+					<div class="modal-footer">
+						<div class="text-right"><button style="box-shadow:none;" type="button" class="btn-small">Save</button></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- modal here closed -->
+
+
+
+		<script src="assets/js/jquery.js"></script>
+		<script src="assets/js/bootstrap.min.js"></script>
+		<script src="assets/js/main.js"></script>
+
+
+	</body>
+
+</html>

@@ -1,0 +1,26 @@
+{
+  "name": "cityparcours-helpdesk",
+  "version": "1.0.0",
+  "description": "CityParcours helpdesk",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.2",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "json2csv": "^5.0.1",
+    "moment": "^2.25.3",
+    "mongoose": "^5.9.13",
+    "morgan": "^1.10.0",
+    "underscore": "^1.10.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}

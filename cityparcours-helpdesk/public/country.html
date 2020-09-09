@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+
+		<title>Edit Profile</title>
+
+		<meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+
+		<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+
+		<link rel="stylesheet" type="text/css" href="assets/css/front.css">
+
+
+	</head>
+
+	<body>
+
+		<!-- main-header -->
+
+		<header class="main-header-wrapper" id="sliding3">
+			<div class="container-fluid">
+				<div class="row clearfix">
+
+					<div class="top-left-header">
+						<ul>
+							<li><a onclick="slide_menu()" href="#"><i class="fas fa-bars"></i></a></li>
+							<li>
+								<a href="#">Activity</a>
+								<ul>
+									<li><a href="#">Menu</a></li>
+									<li><a href="#">Menu</a></li>
+									<li>
+										<a href="#">Submenu <i class="fas fa-caret-right"></i></a>
+										<ul>
+											<li><a href="#">Menu</a></li>
+											<li><a href="#">Menu</a></li>
+
+											<li>
+												<a href="#">Submenu <i class="fas fa-caret-right"></i></a>
+												<ul>
+													<li><a href="#">Menu</a></li>
+													<li><a href="#">Menu</a></li>
+												</ul>
+											</li>
+
+										</ul>
+									</li>
+									<li><a href="#">Menu</a></li>
+									<li><a href="#">Menu</a></li>
+									<li>
+										<a href="#">Submenu <i class="fas fa-caret-right"></i></a>
+										<ul>
+											<li><a href="#">Menu</a></li>
+											<li><a href="#">Menu</a></li>
+											<li><a href="#">Menu</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+
+					<div class="top-right-header">
+						<ul>
+							<li><a href="#"><i class="fas fa-search"></i></a></li>
+							<li><a href="#"><i class="fas fa-envelope"></i></a></li>
+							<li><a href="#"><i class="fas fa-bell"></i><span>0</span></a></li>
+							<li class="dropdown">
+								<a class="dropdown-toggle" data-toggle="dropdown" href="#"><img src="assets/images/small-profile.png" alt="profile"></a>
+								<ul class="dropdown-menu">
+									<li><a href="#"><i class="fas fa-pencil-alt"></i> &nbsp;&nbsp;Edit</a></li>
+									<li><a href="#"><i class="fas fa-cog"></i> &nbsp;&nbsp;Setting</a></li>
+									<li><a href="#"><i class="fas fa-sign-out-alt"></i> &nbsp;&nbsp;Logout</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+
+				</div>
+			</div>
+		</header>
+
+		<!-- main-header closed -->
+
+		<!-- left-fixed-menu -->
+
+		<div class="fixed-left-menu-wrapper" id="sliding">
+			<ul>
+				<li class="text-center"><a href="index.html"><img src="assets/images/logog.png" alt="logo"></a></li>
+				<li>
+					<a data-toggle="collapse" data-target="#demo1" href="#"><i class="fas fa-th-large"></i> <div class="hide-wraper">Cruds</div> <span class="fas fa-caret-right"></span></a>
+					<ul id="demo1" class="collapse">
+						<li><a href="skills.html"><i class="fas fa-user-tie"></i> Skills</a></li>
+						<li><a href="school.html"><i class="fas fa-user-tie"></i> School</a></li>
+						<li><a href="degree.html"><i class="fas fa-user-tie"></i> Degree</a></li>
+						<li><a href="job-title.html"><i class="fas fa-user-tie"></i> Job Title</a></li>
+						<li><a href="companies.html"><i class="fas fa-user-tie"></i> Companies</a></li>
+						<li><a href="country.html"><i class="fas fa-user-tie"></i> Countries</a></li>
+					</ul>
+				</li>
+				<li>
+					<a data-toggle="collapse" data-target="#demo1" href="#"><i class="fas fa-th-large"></i> <div class="hide-wraper">Dashboard</div> <span class="fas fa-caret-right"></span></a>
+					<ul id="demo1" class="collapse">
+						<li><a href="skills.html"><i class="fas fa-user-tie"></i> Skills</a></li>
+						<li><a href="school.html"><i class="fas fa-user-tie"></i> School</a></li>
+						<li><a href="degree.html"><i class="fas fa-user-tie"></i> Degree</a></li>
+						<li><a href="job-title.html"><i class="fas fa-user-tie"></i> Job Title</a></li>
+						<li><a href="companies.html"><i class="fas fa-user-tie"></i> Companies</a></li>
+						<li><a href="country.html"><i class="fas fa-user-tie"></i> Countries</a></li>
+					</ul>
+				</li>
+				<li>
+					<a data-toggle="collapse" data-target="#demo2" href="#"><i class="fas fa-user-tie"></i> <div class="hide-wraper">Profile</div> <span class="fas fa-caret-right"></span></a>
+					<ul id="demo2" class="collapse">
+						<li><a href="#"><i class="fas fa-user-tie"></i> Menu</a></li>
+						<li><a href="#"><i class="fas fa-user-tie"></i> Menu</a></li>
+						<li><a href="#"><i class="fas fa-user-tie"></i> Menu</a></li>
+						<li><a href="#"><i class="fas fa-user-tie"></i> Menu</a></li>
+						<li><a href="#"><i class="fas fa-user-tie"></i> Menu</a></li>
+					</ul>
+				</li>
+				<li>
+					<a data-toggle="collapse" data-target="#demo3" href="#"><i class="fas fa-bell"></i> <div class="hide-wraper">Notification</div> <span class="fas fa-caret-right"></span></a>
+					<ul id="demo3" class="collapse">
+						<li><a href="#"> <i class="fas fa-user-tie"></i>Menu</a></li>
+						<li><a href="#"> <i class="fas fa-user-tie"></i>Menu</a></li>
+						<li><a href="#"> <i class="fas fa-user-tie"></i>Menu</a></li>
+						<li><a href="#"> <i class="fas fa-user-tie"></i>Menu</a></li>
+						<li><a href="#"> <i class="fas fa-user-tie"></i>Menu</a></li>
+					</ul>
+				</li>
+				<li>
+					<a data-toggle="collapse" data-target="#demo4" href="#"><i class="fas fa-envelope"></i> <div class="hide-wraper">Message</div> <span class="fas fa-caret-right"></span></a>
+					<ul id="demo4" class="collapse">
+						<li><a href="#"> <i class="fas fa-user-tie"></i>Menu</a></li>
+						<li><a href="#"> <i class="fas fa-user-tie"></i>Menu</a></li>
+						<li><a href="#"> <i class="fas fa-user-tie"></i>Menu</a></li>
+						<li><a href="#"> <i class="fas fa-user-tie"></i>Menu</a></li>
+						<li><a href="#"> <i class="fas fa-user-tie"></i>Menu</a></li>
+					</ul>
+				</li>
+				<li>
+					<a data-toggle="collapse" data-target="#demo5" href="#"><i class="fas fa-briefcase"></i> <div class="hide-wraper">Job Posting</div> <span class="fas fa-caret-right"></span></a>
+					<ul id="demo5" class="collapse">
+						<li><a href="#"><i class="fas fa-user-tie"></i> Menu</a></li>
+						<li><a href="#"><i class="fas fa-user-tie"></i> Menu</a></li>
+						<li><a href="#"><i class="fas fa-user-tie"></i> Menu</a></li>
+						<li><a href="#"><i class="fas fa-user-tie"></i> Menu</a></li>
+						<li><a href="#"><i class="fas fa-user-tie"></i> Menu</a></li>
+					</ul>
+				</li>
+				<li>
+					<a data-toggle="collapse" data-target="#demo6" href="#"><i class="fas fa-lock"></i> <div class="hide-wraper">Security</div> <span class="fas fa-caret-right"></span></a>
+					<ul id="demo6" class="collapse">
+						<li><a href="#"><i class="fas fa-user-tie"></i> Menu</a></li>
+						<li><a href="#"><i class="fas fa-user-tie"></i> Menu</a></li>
+						<li><a href="#"><i class="fas fa-user-tie"></i> Menu</a></li>
+						<li><a href="#"><i class="fas fa-user-tie"></i> Menu</a></li>
+						<li><a href="#"><i class="fas fa-user-tie"></i> Menu</a></li>
+					</ul>
+				</li>
+				<li>
+					<a data-toggle="collapse" data-target="#demo7" href="#"><i class="fas fa-sign-out-alt"></i> <div class="hide-wraper">Logout</div> <span class="fas fa-caret-right"></span></a>
+					<ul id="demo7" class="collapse">
+						<li><a href="#"><i class="fas fa-user-tie"></i> Menu</a></li>
+						<li><a href="#"><i class="fas fa-user-tie"></i> Menu</a></li>
+						<li><a href="#"><i class="fas fa-user-tie"></i> Menu</a></li>
+						<li><a href="#"><i class="fas fa-user-tie"></i> Menu</a></li>
+						<li><a href="#"><i class="fas fa-user-tie"></i> Menu</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+
+		<!-- left-fixed-menu closed -->
+
+		<!-- main-site-area-wrapper -->
+
+		<div class="main-site-area-wrapper" id="sliding2">
+
+			<div class="manage-content-wrapper">
+
+				<div class="dashboard-heading clearfix">
+					<h2>Country</h2>
+					<ul>
+						<li>Technerds / Dashboard</li>
+					</ul>
+				</div>
+
+				<div class="content-sorting clearfix">
+					<div class="in-left">
+						<label>
+							<select>
+								<option>5</option>
+								<option>10</option>
+								<option>20</option>
+								<option>30</option>
+								<option>50</option>
+							</select>
+							<span>Records</span>
+						</label>
+					</div>
+					<div class="in-right">
+						<a class="btn-small" href="#" data-toggle="modal" data-target="#myModal-1">+ Add</a>
+					</div>
+				</div>
+
+				<div class="manage-content-area clearfix">
+					<ul class="mange-heading clearfix">
+						<li class="width-25"><span>Page Title</span></li>
+						<li class="width-25"><span>Page Slug</span></li>
+						<li class="width-25"><span>Status</span></li>
+						<li class="width-25"><span>Action</span></li>
+					</ul>
+
+					<ul class="manage-text clearfix">
+						<li class="width-25"><span>Content Here...</span></li>
+						<li class="width-25"><span>Content Here...</span></li>
+						<li class="width-25"><span>Content Here...</span></li>
+						<li class="width-25">
+							<a href="#"><i class="fas fa-pen"></i></a>
+							<a href="#"><i class="far fa-trash-alt"></i></a>
+							<a href="#"><i class="fas fa-eye"></i></a>
+						</li>
+					</ul>
+					<ul class="manage-text clearfix">
+						<li class="width-25"><span>Content Here...</span></li>
+						<li class="width-25"><span>Content Here...</span></li>
+						<li class="width-25"><span>Content Here...</span></li>
+						<li class="width-25">
+							<a href="#"><i class="fas fa-pen"></i></a>
+							<a href="#"><i class="far fa-trash-alt"></i></a>
+							<a href="#"><i class="fas fa-eye"></i></a>
+						</li>
+					</ul>
+					<ul class="manage-text clearfix">
+						<li class="width-25"><span>Content Here...</span></li>
+						<li class="width-25"><span>Content Here...</span></li>
+						<li class="width-25"><span>Content Here...</span></li>
+						<li class="width-25">
+							<a href="#"><i class="fas fa-pen"></i></a>
+							<a href="#"><i class="far fa-trash-alt"></i></a>
+							<a href="#"><i class="fas fa-eye"></i></a>
+						</li>
+					</ul>
+					<ul class="manage-text clearfix">
+						<li class="width-25"><span>Content Here...</span></li>
+						<li class="width-25"><span>Content Here...</span></li>
+						<li class="width-25"><span>Content Here...</span></li>
+						<li class="width-25">
+							<a href="#"><i class="fas fa-pen"></i></a>
+							<a href="#"><i class="far fa-trash-alt"></i></a>
+							<a href="#"><i class="fas fa-eye"></i></a>
+						</li>
+					</ul>
+
+				</div>
+
+			</div>
+
+		</div>
+
+		<!-- main-site-area-wrapper closed -->
+
+		<!-- modals here -->
+
+		<div class="modal fade" tabindex="-1" role="dialog" id="myModal-1">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h4 class="modal-title">Add School</h4>
+					</div>
+					<div class="modal-body">
+						<div class="modals-forms">
+							<form>
+								<div class="input-grp">
+									<span>Project Title</span>
+									<input type="text">
+								</div>
+								<div class="input-grp">
+									<span>Manager</span>
+									<input style="transform:translateY(6px); border:none;" accept="image/*" type="file">
+								</div>
+							</form>
+						</div>
+					</div>
+					<div class="modal-footer">
+						<button style="box-shadow:none;" data-dismiss="modal" type="button" class="btn-small2">Cancel</button>
+						<button style="box-shadow:none;" type="button" class="btn-small">Save</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- modal here closed -->
+
+
+
+		<script src="assets/js/jquery.js"></script>
+		<script src="assets/js/bootstrap.min.js"></script>
+		<script src="assets/js/main.js"></script>
+
+
+	</body>
+
+</html>

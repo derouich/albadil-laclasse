@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<title>Edit Profile</title>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<%- include('./layout/css') -%>
+
+
+</head>
+
+<body>
+
+
+
+	<%- include('./layout/header') -%>
+
+
+	<%- include('./layout/sidebar') -%>
+
+	<!-- left-fixed-menu closed -->
+
+	<!-- main-site-area-wrapper -->
+
+	<div class="main-site-area-wrapper" id="sliding2">
+
+		<div class="admin-dashboard-wrapper clearfix">
+			<div class="conatiner-fluid clearfix">
+
+				<div class="dashboard-heading clearfix">
+					<h2>Create New User</h2>
+				</div>
+
+
+
+				<div class="col-md-12">
+					<div class="height-wrapper">
+
+						<form id="create-user">
+							<div class="dashboard-content clearfix">
+
+								<div class="form-heading">
+									<h2>Detail</h2>
+								</div>
+
+								<div class="form-wrapper clearfix">
+									<div class="col-md-6">
+										<label>
+											<span>Name</span>
+											<input type="text" name="fullName">
+										</label>
+									</div>
+									<div class="col-md-6">
+										<label>
+											<span>Email</span>
+											<input type="text" name="email">
+										</label>
+									</div>
+									<div class="col-md-6">
+										<label>
+											<span>Password</span>
+											<input type="text" name="password">
+										</label>
+									</div>
+									<div class="col-md-6">
+										<label>
+											<span>Phone</span>
+											<input type="text" name="phone" onkeypress="return isNumberKey(event)">
+										</label>
+									</div>
+									<div class="col-md-6">
+										<label>
+											<span>City</span>
+											<input type="text" name="cityName">
+										</label>
+									</div>
+									<div class="col-md-6">
+										<label>
+											<span>Etablissement</span>
+											<input type="text" name="etablissement">
+										</label>
+									</div>
+
+									<div class="col-md-12 radio-btns" style="margin-top: 10px;">
+										<label>
+											<span style="width: 100px;">Is Teacher</span>
+										</label>
+										<label>
+											<input type="radio" name="moderator" value="true" checked>
+											<span>True</span>
+										</label>
+										<label>
+											<input type="radio" name="moderator" value="false">
+											<span>False</span>
+										</label>
+									</div>
+
+								</div>
+							</div>
+							<div class="save-btn-wrapper">
+								<button type="submit" id="save">Create User</button>
+							</div>
+						</form>
+
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+
+
+
+	<%- include('./layout/javascript') -%>
+	<script>
+		function isNumberKey(evt) {      //onkeypress="return isNumberKey(event)"
+			var charCode = (evt.which) ? evt.which : event.keyCode;
+			if (charCode != 46 && charCode > 31 && (charCode < 48 || charCode > 57)) {
+				return false;
+			} else {
+				return true;
+			}
+		}
+		$(document).ready(function () {
+
+			$.fn.serializeObject = function () {
+				var o = {};
+				var a = this.serializeArray();
+				$.each(a, function () {
+					if (o[this.name] !== undefined) {
+						if (!o[this.name].push) {
+							o[this.name] = [o[this.name]];
+						}
+						o[this.name].push(this.value || '');
+					} else {
+						o[this.name] = this.value || '';
+					}
+				});
+				return o;
+			};
+
+			$('#create-user').on('submit', function (e) {
+				e.preventDefault();
+				// blockUi();
+				var data = $('#create-user').serializeObject();
+				$.ajax({
+					type: 'post',
+					url: '/create-user',
+					dataType: 'json',
+					data: data,
+					success: function (data) {
+						$.unblockUI();
+						if (data.status == 1) {
+							toastr.success(data.message);
+							$('#create-user')[0].reset();
+						}
+						if (data.status == 0) {
+							toastr.error(data.message);
+						}
+					}
+				});
+			});
+		});
+	</script>
+
+
+
+</body>
+
+</html>

@@ -2,7 +2,7 @@
 module.exports = {
   apps: [
     {
-      name: 'cityparcours-helpdesk',
+      name: 'albadil-helpdesk',
       script: './app.js',
       instances: 1,
       exec_mode: 'cluster',

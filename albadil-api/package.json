@@ -1,11 +1,11 @@
 {
-  "name": "cityparcours-api",
+  "name": "albadil-api",
   "version": "1.0.0",
   "private": true,
   "scripts": {
     "start": "node app.js",
     "dev": "NODE_ENV=development nodemon",
-    "deploy": "NODE_ENV=production pm2 start app.js -i 0 --name 'cityparcours-api'",
+    "deploy": "NODE_ENV=production pm2 start app.js -i 0 --name 'albadil-api'",
     "test": "mocha --timeout 10000"
   },
   "dependencies": {

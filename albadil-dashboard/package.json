@@ -1,5 +1,5 @@
 {
-  "name": "cityparcours-dashboard",
+  "name": "albadil-dashboard",
   "author": "LaClasse",
   "email": "contact@laclasse.ma",
   "licence": "LaClasse",
@@ -10,7 +10,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "pm2 start ./server.sh --name cityparcours-dashboard"
+    "deploy": "pm2 start ./server.sh --name albadil-dashboard"
   },
   "eslintConfig": {
     "extends": "react-app"

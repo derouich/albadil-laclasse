@@ -1,7 +1,7 @@
 {
-  "name": "cityparcours-helpdesk",
+  "name": "albadil-helpdesk",
   "version": "1.0.0",
-  "description": "CityParcours helpdesk",
+  "description": "albadil helpdesk",
   "main": "app.js",
   "scripts": {
     "dev": "nodemon app.js"

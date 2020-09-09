@@ -16,9 +16,9 @@ module.exports = {
     BBB_HOST:'https://live1.laclasse.ma/bigbluebutton/api',
     BBB_SECRET:'6bfjhZbcsL3uIVvarmylphC90VP319ibPjCrTZi98',
     BBB_END_CALLBACK_URL: 'http://localhost:8081/v1/room/logout',
-    BBB_MEETING_WELCOME_MESSAGE: 'Bienvenue au CityParcours.',
+    BBB_MEETING_WELCOME_MESSAGE: 'Bienvenue au albadil.',
 
-    BBB_MEETING_PRESENTATION_URL: 'https://bucket.mwsapp.com/cityparcours-users-profile-pictures/cityparcourspres.pdf',
+    BBB_MEETING_PRESENTATION_URL: 'https://bucket.mwsapp.com/albadil-users-profile-pictures/albadilpres.pdf',
     BBB_MEETING_PRESENTATION_NAME: 'default.pdf',
     SMTP_USER: 'noreply@gustaveeiffel.ma',
     SMTP_PASS: 'HyK65@9Z',

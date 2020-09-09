@@ -35,7 +35,7 @@ function LoadingElement({ className, ...rest }) {
       <RiseLoader
         className={classes.spinner}
         size={20}
-        color={'#2dbef7'}
+        color={'#000b99'}
       />
 
     </div>

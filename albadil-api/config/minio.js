@@ -15,7 +15,7 @@ module.exports.minioClient = () => {
 
 module.exports.bucketsNames = () => {
     return {
-        usersProfilePictures: 'cityparcours-users-profile-pictures'
+        usersProfilePictures: 'albadil-users-profile-pictures'
     };
 };
 

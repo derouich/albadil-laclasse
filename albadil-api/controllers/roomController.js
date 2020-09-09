@@ -13,7 +13,7 @@ let keys = require('./../config/keys');
 
 
 let presentation = '<modules><module name="presentation">' +
-    '<document url="https://bucket.mwsapp.com/cityparcours-users-profile-pictures/cityparcourspres.pdf" ' +
+    '<document url="https://bucket.mwsapp.com/albadil-users-profile-pictures/default.pdf" ' +
     'filename="presentation.pdf"/>' +
     "</module></modules>";
 

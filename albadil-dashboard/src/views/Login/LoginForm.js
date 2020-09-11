@@ -57,7 +57,7 @@ function LoginForm({ className, ...rest }) {
     password: {
       presence: { allowEmpty: false, message: t('password is required') },
       length: {
-        minimum: 6,
+        minimum: 3,
         message: t('password must be at least 6 characters')
       }
     }
